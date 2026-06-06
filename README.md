@@ -50,13 +50,26 @@ This resource fills a gap not addressed by official UIUC websites by consolidati
      - What your final chunk count was across all documents -->
 
 **Chunk size:**
-
+250–350 tokens per chunk (target ~300 tokens)
 **Overlap:**
-
+50 tokens overlap
 **Why these choices fit your documents:**
+Our corpus consists primarily of:
+
+Student course reviews
+Reddit comments and discussion threads
+RateMyProfessor reviews
+Course writeups and blog posts
+UIUCMCS reviews
+
+Most reviews are relatively short (1–5 paragraphs) and contain a single opinion or experience about workload, difficulty, projects, grading, or teaching quality. Because the documents are opinion-based rather than long technical manuals, very large chunks would combine multiple unrelated ideas and reduce retrieval precision.
+
+A chunk size of approximately 300 tokens is large enough to preserve the context of a student's review while remaining focused on a specific experience. For example, a review discussing workload, project difficulty, and instructor quality can usually fit within a single chunk, allowing the retrieval system to return a coherent opinion rather than fragmented sentences.
+
+A 50-token overlap helps preserve information that may span chunk boundaries. For example, a reviewer might describe project difficulty at the end of one chunk and explain its impact on workload at the beginning of the next. The overlap ensures that important context is not lost and that either chunk remains retrievable.
 
 **Final chunk count:**
-
+3,000–6,000 chunks
 ---
 
 ## Embedding Model
