@@ -13,6 +13,9 @@
      Why is this knowledge valuable, and why is it hard to find through official channels?
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+Topic Covered: Course and Professor reviews at UIUC - MCS program. 
+
+This resource fills a gap not addressed by official UIUC websites by consolidating student feedback in one place. Instead of searching across multiple platforms, students can easily access reviews and insights to help inform their course and instructor selections.
 
 ---
 
@@ -24,16 +27,16 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 |Rate My Professor |Site |https://www.ratemyprofessors.com/search/professors/1112?q=*&did=11 |
+| 2 |List of professors ranked excellent |College Webpage |https://siebelschool.illinois.edu/news/illinois-cs-places-28-faculty-on-citl-list-of-teachers-ranked-as-excellent-by-their-students |
+| 3 |UIUC MCS course reviews|Webpage |https://uiucmcs.org/ |
+| 4 |Student Blog |Medium |https://medium.com/@suvoo/the-actual-masters-experience-usa-17ed4adc2af3 |
+| 5 |Student Discussions | Thread|https://www.quora.com/What-courses-in-UIUC-MCS-are-excellent-and-should-not-be-missed |
+| 6 |UIUC MCS Reddit | Subreddit |https://www.reddit.com/r/UIUC_MCS/|
+| 7 |Coursicle - course reviews |Webpage |https://www.coursicle.com/illinois/ |
+| 8 |Grade disparity between courses |Webpage |[https://waf.cs.illinois.edu/discovery/grade_disparity_between_sections_at_uiuc/](https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/) |
+| 9 |Coursicle - professor reviews | Webpage|https://www.coursicle.com/illinois/professors/ |
+| 10 |GPA Dataset | Github Repo | https://github.com/wadefagen/datasets/tree/main/gpa |
 
 ---
 
