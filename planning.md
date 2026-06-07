@@ -96,25 +96,9 @@ A 50-token overlap helps preserve information that may span chunk boundaries. Fo
 | # | Question | Expected answer |
 |---|----------|-----------------|
 | 1 | What do students commonly say about CS 225 regarding workload and difficulty? | Students generally describe CS 225 as one of the more demanding courses in the program. Reviews frequently mention a significant programming workload, challenging MPs/projects, and the need for consistent weekly effort. Despite the difficulty, many students consider it valuable for strengthening data structures and programming fundamentals. |
-| 2 | Which UIUC MCS courses are most frequently recommended by students? | Courses that receive repeated positive recommendations include:
-
-CS 425 (Distributed Systems)
-CS 411 (Database Systems)
-CS 498 (Cloud Computing Applications)
-CS 441 (Applied Machine Learning)
-
-Students commonly praise these courses for practical applications, industry relevance, and strong project-based learning experiences. |
+| 2 | Which UIUC MCS courses are most frequently recommended by students? | Courses that receive repeated positive recommendations include: CS 425 (Distributed Systems), CS 411 (Database Systems), CS 498 (Cloud Computing Applications),CS 441 (Applied Machine Learning). Students commonly praise these courses for practical applications, industry relevance, and strong project-based learning experiences. |
 | 3 |What characteristics do students mention when reviewing Professor Mariana Raygoza? | Students generally describe Professor Mariana Raygoza as organized, approachable, and responsive to student questions. Reviews often mention clear communication, structured coursework, and a willingness to help students understand difficult material. |
-| 4 |What factors make a course difficult according to UIUC MCS student reviews? |Students typically associate course difficulty with:
-
-Heavy weekly assignments
-Large programming projects
-Challenging exams
-Significant reading requirements
-Strict grading policies
-Time-consuming group work
-
-Workload is often cited as a stronger contributor to difficulty than the complexity of the material itself. |
+| 4 |What factors make a course difficult according to UIUC MCS student reviews? |Students typically associate course difficulty with:Heavy weekly assignments, Large programming projects, Challenging exams, Significant reading requirements, Strict grading policies, Time-consuming group work, Workload is often cited as a stronger contributor to difficulty than the complexity of the material itself. |
 | 5 |How do students use GPA and grade disparity information when selecting courses and instructors? |Students use GPA and grade disparity data as an additional decision-making tool when choosing sections and instructors. Reviews suggest that students compare instructor grading patterns, average GPAs, and historical outcomes alongside workload and teaching-quality reviews to evaluate overall course difficulty. |
 
 ---
@@ -129,6 +113,7 @@ Workload is often cited as a stronger contributor to difficulty than the complex
 
 2. Noisy and Unverified Online Content- Several sources, including Reddit, Quora, and RateMyProfessor, contain user-generated content that is not verified by the university. Reviews may be outdated, biased, incomplete, or based on a single individual's experience. Some reviews may also contain exaggerated praise or criticism. As a result, the system may retrieve information that does not accurately reflect the current state of a course or instructor, especially if course content or teaching staff have changed over time.
 
+
 ---
 
 ## Architecture
@@ -138,65 +123,34 @@ Workload is often cited as a stronger contributor to difficulty than the complex
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
-┌─────────────────────────────────────────────┐
-│              DOCUMENT SOURCES               │
-├─────────────────────────────────────────────┤
-│ • RateMyProfessor                           │
-│ • UIUCMCS Reviews                           │
-│ • Reddit (r/UIUC_MCS)                       │
-│ • Coursicle Reviews                         │
-│ • Grade Disparity Dataset                   │
-│ • GPA Dataset                               │
-│ • Medium Blogs                              │
-│ • Quora Discussions                         │
-└─────────────────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────┐
-│             DOCUMENT INGESTION              │
-├─────────────────────────────────────────────┤
-│ BeautifulSoup                               │
-│ Reddit API / Web Scraping                   │
-│ HTML Cleaning & Text Extraction             │
-└─────────────────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────┐
-│                  CHUNKING                   │
-├─────────────────────────────────────────────┤
-│ LangChain RecursiveCharacterTextSplitter    │
-│ Chunk Size: 250–350 Tokens                  │
-│ Target: 300 Tokens                          │
-│ Overlap: 50 Tokens                          │
-└─────────────────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────┐
-│         EMBEDDING + VECTOR STORE            │
-├─────────────────────────────────────────────┤
-│ OpenAI text-embedding-3-small               │
-│ Vector Representation                       │
-│ FAISS Vector Database                       │
-└─────────────────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────┐
-│                 RETRIEVAL                   │
-├─────────────────────────────────────────────┤
-│ User Question                               │
-│ Embedding Query                             │
-│ Top-k Similarity Search                     │
-│ Cosine Similarity Ranking                   │
-└─────────────────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────┐
-│                GENERATION                   │
-├─────────────────────────────────────────────┤
-│ GPT-4o / GPT-4.1                            │
-│ Retrieved Context + User Query              │
-│ Final Answer with Citations                 │
-└─────────────────────────────────────────────┘
+
+```mermaid
+flowchart LR
+
+    A[Document Ingestion<br/>BeautifulSoup<br/>Reddit API / Web Scraping<br/>PDF & HTML Processing]
+    
+    --> B[Chunking<br/>LangChain RecursiveCharacterTextSplitter<br/>300 Token Chunks<br/>50 Token Overlap]
+    
+    --> C[Embedding + Vector Store<br/>OpenAI text-embedding-3-small<br/>FAISS Vector Database]
+    
+    --> D[Retrieval<br/>Top-k Similarity Search<br/>Cosine Similarity]
+    
+    --> E[Generation<br/>GPT-4o / GPT-4.1<br/>RAG Prompting]
+
+    A1[RateMyProfessor]
+    A2[UIUCMCS Reviews]
+    A3[Reddit r/UIUC_MCS]
+    A4[Coursicle]
+    A5[Grade & GPA Datasets]
+    A6[Medium / Quora]
+
+    A1 --> A
+    A2 --> A
+    A3 --> A
+    A4 --> A
+    A5 --> A
+    A6 --> A
+```
 
 ---
 
@@ -211,20 +165,22 @@ Workload is often cited as a stronger contributor to difficulty than the complex
      "I'll use AI to help me code" is not a plan.
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
+     
 Tool used: Claude
 The AI tools will be provided with the project requirements from this planning document, including the domain description, document sources, chunking strategy, pipeline architecture, and evaluation questions.
 
 The AI tools will be used to generate code for document ingestion, preprocessing, chunking, embedding generation, vector database creation, retrieval, and answer generation. They may also be used to assist with debugging, prompt design, and integration of the different pipeline components.
 
 Expected outputs include:
-
 Python scripts for collecting and processing data from the selected sources
 Chunking and document preprocessing implementations
 Embedding and vector database setup code
 Retrieval and ranking logic
 Prompt templates and answer-generation workflows
 Documentation and implementation guidance
+
 Output quality will be verified through manual review and testing against the project requirements. Each component will be tested using the collected UIUC MCS review data, and the completed system will be evaluated using the predefined test questions. Verification will focus on whether the system retrieves relevant information, generates answers supported by the retrieved content, and produces responses that align with the expected results. Any outputs that do not satisfy the project specifications will be refined and retested before being incorporated into the final system.
+
 **Milestone 3 — Ingestion and chunking:**
 
 **Milestone 4 — Embedding and retrieval:**
