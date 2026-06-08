@@ -1,0 +1,88 @@
+Wade Fagen-Ulmschneider
+
+waf.cs
+
+visualizations
+
+Grade disparity between sections at UIUC
+
+Grade disparity between sections at UIUC
+
+Originally published by Devin Oliver, Johnny Guo, Joe Tan, Jerry Li, Tina Abraham, Andy (Tianyue) Mao, Kara Landolt, Nathan Cho, and Wade Fagen-Ulmschneider
+
+Updated for Fall 2026 Registration on March 29, 2026 by Wade Fagen-Ulmschneider
+
+Introduction
+
+One of the most frustrating situations to find yourself in is a course where all of your friends are in the "easier section". For most of us, it feels like this happens all of the time . This visualization is the second in a series of GPA visualizations created to explore the grades given by courses at The University of Illinois.
+
+Using GPA data from the most recent eight full semesters (Spring 2022 through Spring 2025,
+including summers/winters), we found the distribution of every section/instructor group
+within every course. For example, Calculus I (MATH 221) has been taught by
+seven different primary instructors recently. We found the following distributions:
+
+&rarr;
+&rarr;
+&rarr;
+&rarr;
+
+(Highest Avg. Grades)
+&rarr;
+(Lowest Avg. Grades)
+
+Instructors with average grades significantly lower than the
+average grade for a course have increasing red hues .
+
+&rarr;
+
+&rarr;
+
+&rarr;
+
+Middle
+50%-tile
+
+Next
+12.5%-tile
+
+Next
+7.5%-tile
+
+Final 5%
+(95%/5%)
+
+&rarr;
+
+&rarr;
+
+&rarr;
+
+The darkest shading shows the median grades in a course, with each
+lighter showing grades further from the median.
+
+External Impact
+
+In the preparation of this work, we found other factors &mdash; including the time of day of the lecture and
+if the course was in-person or online &mdash; also have a major contribution to the final grades in a
+course. We hope others will dive deeper into these factors in the future.
+
+Find Your Course
+
+Type the subject for any course at UIUC (eg: CS for Computer Science) to
+find the disparity of grades between different sections of a course:
+
+Course Subject:
+
+Interested in Data Science? Try the new math gened: Data Science Discovery (STAT 107)
+
+Co-taught and created by the professor of this visualization -- no prereqs!
+
+-->
+
+Find Another Course
+
+waf.cs
+
+visualizations
+
+Grade disparity between sections at UIUC

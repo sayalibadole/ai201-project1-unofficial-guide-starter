@@ -1,0 +1,197 @@
+The Actual Masters Experience (USA) | by Suvodeep Sinha | Medium
+
+Sitemap
+
+Open in app
+
+Sign up
+
+Sign in
+
+Medium Logo
+
+Get app
+
+Write
+
+Search
+
+Sign up
+
+Sign in
+
+The Actual Masters Experience (USA)
+
+Suvodeep Sinha
+
+5 min read
+·
+May 22, 2024
+
+--
+
+Listen
+
+Share
+
+I just completed 2 semesters at the University of Illinois Urbana-Champaign as a Masters student in Computer Science. Describing it as merely a great experience would be an understatement! It was a roller coaster ride with extreme highs and lows.
+
+There are several cultural shocks, unforgettable moments, and academic challenges that one faces coming into the US. Be it living alone for the first time, the weather, or balancing your part-time work with university life. Several people are covering all these aspects of an international student&#x27;s life, but very few give an insight into what you actually came here for — An educational degree!
+
+Press enter or click to view image in full size
+
+UIUC Campus (Credits — UIUC website)
+Through this blog, I hope you&#x27;ll be able to see some differences in the education style at the Grad level and hopefully plan the challenge level of pursuing a degree abroad. Although this is centered towards Computer Science, I try to keep the structure general.
+
+some info — in UIUC, 400-level courses are open for graduate students and undergrads (for a lesser credit option) and 500-level courses are graduate only courses.
+
+Semester I
+
+CS 444 Deep Learning for Computer Vision [ Course Site ]
+
+This was the most challenging course that I had taken this semester. It covered basic topics from Linear Regression to advanced Transformer and Diffusion models. The course structure included -
+
+5 coding assignments
+
+1 Project (equivalent of 3 assignments)
+
+2 exams
+
+Although the assignments were well documented, implementing them in code was challenging. The exams were Math intensive and quite mentally exhausting but that is expected from a grad-Machine Learning class.
+
+The Professor and the course material were extremely helpful for understanding basics and served as a strong foundation for the multiple ML engineering interviews that I gave. A must-take if you&#x27;re interested in this field broadly
+
+CS 445 Computational Photography [ Course Site ]
+
+I took this course to test whether I wanted a deep dive into computer vision and 3D image problems. This class introduces to several classical CV problems and does not involve any form of Machine Learning. The instructor describes Computational photography as an emerging field created by the convergence of computer graphics, computer vision, and photography
+
+The course structure was exactly the same as the previous CS444. The coding assignments were very practical/hands-on. Any errors faced taught the student to solve the problem rather than just ask ChatGPT.
+
+I would rate this a well-balanced course for learning and workload. It is beneficial if you like to research problems specific to CV or aiming an industry role in the same field.
+
+CS 410 Text Information Systems [ Course Site ]
+
+I had little to no background in text retrieval or NLP and wanted to start bottom up rather than jumping to LLMs. This course covered text retrieval, text mining, search engines, recommendation systems and much more. The course structure included -
+
+15 weekly quizzes (based on topics covered in class)
+
+3 coding assignments
+
+1 Paper Review (Any paper related to the field)
+
+1 Project
+
+2 exams
+
+Although this may seem a lot on paper, it wasn&#x27;t the case. In depth, understanding of the concepts was enough for a lot of them. The class was well paced, beginner friendly and the content was very easy to follow. I felt this was my most interactive class and will recommend this to anyone who doesn&#x27;t know how to begin with textual data.
+
+CS 591 CS Colloquium [ Course Site ]
+
+This wasn&#x27;t a traditional class, but a 1 credit optional course that required students to attend different seminars/talks or conferences all around the semester and write a brief report about the major learning + intriguing questions learned in those talks.
+
+Press enter or click to view image in full size
+
+Try to Travel in the semester breaks (me in Chicago)
+Semester II
+
+CS 568 User-Centered Machine Learning [ Course Site ]
+
+In the modern world, AI is integrated into almost every application in some way or another. Just focusing on the optimum algorithm or ML framework might not be enough. Hence to better understand Design principles, I wanted a course sharing some topics in the HCI realm.
+
+We focused on researching AI systems that are easy to use, adapt to individual needs, and improve user satisfaction. It helps make technology fairer, more transparent, and more trustworthy. The course structure included -
+
+2 research paper readings weekly
+
+1 final project (45% of the grade)
+
+The course was heavily research-focused to produce something of actual value at the end. The advent of LLMs led to a boom in this field and hence its use in several applications. I’ll recommend this course to anyone wanting to experiment with HCI+NLP fields with a focus on Language models.
+
+CS 510 Advanced Information Retrieval [ Course Site ]
+
+The advanced version of CS 410 which I had previously taken was quite rigorous but very rewarding. Continuing from the precursor, it covered advanced topics in the growing field of information retrieval (IR). This time, attention was on mixture models, statistical models, and ways to obtain Big Text data.
+
+As seen in CS568, special focus was given to LLMs and their applications. Assignments were designed to let students find out on their own how LLMs outperformed the traditional techniques. The structure included -
+
+4 quizzes
+
+3 assignments
+
+1 experimental assignment on LLM and a large codebase
+
+1 paper/toolkit review
+
+1 exam
+
+1 project
+
+As I said earlier the course kept me busy with different things to finish, but having taken CS410 was an added advantage. I am glad I enjoyed working with text data and learning the principles rather than just joining the ChatGPT hype!
+
+CS 412 Introduction to Data Mining [ Course Site ]
+
+This course is taken by a lot of undergrads as it covers many topics of statistics in depth. I found myself struggling in technical interviews on foundational concepts like bias-variance, PCAs, EDA, overfitting, etc.
+
+This course helped with the basics of data mining, like preparing data, storing it, finding patterns, and grouping similar data. How to use these techniques in real-life situations, and be able to evaluate and analyze the results effectively. The course structure -
+
+3 assignments
+
+2 coding assignments
+
+3 exams
+
+1 project
+
+I enjoyed the coding assignments the most. It usually wanted students to implement a pre-existing technique/library from scratch without using any helper functions. One such instance was when wanted to code the Apriori Algorithm from scratch.
+
+This course can serve as a good intro to data or ML class if anyone is new to the field.
+
+Last Words
+
+I hope I was able to give some idea of the average workload expected when you&#x27;re a graduate student. My case was biased for CS but generally, most of the STEM fields have it similar.
+
+We have to balance several things along with the course, one of them being the Internship/Job hunt. Try to find ways to motivate yourself, good friends and take regular breaks. Wishing you all the best for your Master&#x27;s journey!
+
+Find me on Twitter , GitHub , and LinkedIn .
+
+Ms In Us
+
+Graduate School
+
+Computer Science
+
+Uiuc
+
+International Student
+
+--
+
+--
+
+Written by Suvodeep Sinha
+
+47 followers
+
+· 23 following
+
+AI @ Intel | CS @ UIUC. I like to write about Tech and my experiences around it
+
+Help
+
+Status
+
+About
+
+Careers
+
+Press
+
+Blog
+
+Store
+
+Privacy
+
+Rules
+
+Terms
+
+Text to speech

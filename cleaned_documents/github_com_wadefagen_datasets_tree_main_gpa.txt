@@ -1,0 +1,669 @@
+datasets/gpa at main · wadefagen/datasets · GitHub
+
+Skip to content
+
+Navigation Menu
+
+Toggle navigation
+
+Sign in
+
+Appearance settings
+
+Platform
+
+AI CODE CREATION
+
+GitHub Copilot Write better code with AI
+
+GitHub Copilot app Direct agents from issue to merge
+
+MCP Registry New Integrate external tools
+
+DEVELOPER WORKFLOWS
+
+Actions Automate any workflow
+
+Codespaces Instant dev environments
+
+Issues Plan and track work
+
+Code Review Manage code changes
+
+APPLICATION SECURITY
+
+GitHub Advanced Security Find and fix vulnerabilities
+
+Code security Secure your code as you build
+
+Secret protection Stop leaks before they start
+
+EXPLORE
+Why GitHub
+
+Documentation
+
+Blog
+
+Changelog
+
+Marketplace
+
+View all features
+
+Solutions
+
+BY COMPANY SIZE
+Enterprises
+
+Small and medium teams
+
+Startups
+
+Nonprofits
+
+BY USE CASE
+App Modernization
+
+DevSecOps
+
+DevOps
+
+CI/CD
+
+View all use cases
+
+BY INDUSTRY
+Healthcare
+
+Financial services
+
+Manufacturing
+
+Government
+
+View all industries
+
+View all solutions
+
+Resources
+
+EXPLORE BY TOPIC
+AI
+
+Software Development
+
+DevOps
+
+Security
+
+View all topics
+
+EXPLORE BY TYPE
+Customer stories
+
+Events & webinars
+
+Ebooks & reports
+
+Business insights
+
+GitHub Skills
+
+SUPPORT & SERVICES
+Documentation
+
+Customer support
+
+Community forum
+
+Trust center
+
+Partners
+
+View all resources
+
+Open Source
+
+COMMUNITY
+
+GitHub Sponsors Fund open source developers
+
+PROGRAMS
+Security Lab
+
+Maintainer Community
+
+Accelerator
+
+GitHub Stars
+
+Archive Program
+
+REPOSITORIES
+Topics
+
+Trending
+
+Collections
+
+Enterprise
+
+ENTERPRISE SOLUTIONS
+
+Enterprise platform AI-powered developer platform
+
+AVAILABLE ADD-ONS
+
+GitHub Advanced Security Enterprise-grade security features
+
+Copilot for Business Enterprise-grade AI features
+
+Premium Support Enterprise-grade 24/7 support
+
+Pricing
+
+Search or jump to...
+
+Search code, repositories, users, issues, pull requests...
+
+-->
+
+Search
+
+Clear
+
+Search syntax tips
+
+Provide feedback
+
+-->
+
+We read every piece of feedback, and take your input very seriously.
+
+Include my email address so I can be contacted
+
+Cancel
+
+Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly
+
+-->
+
+Name
+
+Query
+
+To see all available qualifiers, see our documentation .
+
+Cancel
+
+Create saved search
+
+Sign in
+
+Sign up
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+Dismiss alert
+
+wadefagen
+
+/
+
+datasets
+
+Public
+
+Notifications
+You must be signed in to change notification settings
+
+Fork
+57
+
+Star
+192
+
+Code
+
+Issues
+2
+
+Pull requests
+3
+
+Actions
+
+Projects
+
+Security and quality
+0
+
+Insights
+
+Additional navigation options
+
+Code
+
+Issues
+
+Pull requests
+
+Actions
+
+Projects
+
+Security and quality
+
+Insights
+
+Files
+
+Expand file tree
+
+  main
+
+Breadcrumbs
+
+datasets
+
+/
+gpa
+/
+
+Copy path
+
+Directory actions
+
+More options
+
+More options
+
+Directory actions
+
+More options
+
+More options
+
+Latest commit
+
+ 
+
+History
+
+History
+
+History
+
+  main
+
+Breadcrumbs
+
+datasets
+
+/
+gpa
+/
+
+Top
+
+Folders and files
+
+Name Name
+Last commit message
+
+Last commit date
+
+parent directory
+
+..
+
+raw
+
+raw
+
+ 
+
+ 
+
+scripts
+
+scripts
+
+ 
+
+ 
+
+README.md
+
+README.md
+
+ 
+
+ 
+
+uiuc-gpa-dataset.csv
+
+uiuc-gpa-dataset.csv
+
+ 
+
+ 
+
+View all files
+
+README.md
+
+Outline
+
+University of Illinois' GPA Dataset
+
+As a response to Freedom of Information Act requests (FOIA #16-456, and others) for "the grade distributions by percent and/or letter grade, for every class [...] at the University of Illinois at Urbana-Champaign" . This repository contains a record of all of the data from the above FOIA requests in a clean, documented CSV format.
+
+Download the full dataset as a single CSV file
+
+Data Format
+
+The first row of the CSV file contains column headers. Every row after the first contains data. Sample:
+
+Year
+Term
+YearTerm
+Subject
+Number
+Course Title
+Sched Type
+A+
+A
+A-
+B+
+B
+B-
+C+
+C
+C-
+D+
+D
+D-
+F
+W
+Students
+Primary Instructor
+
+2025
+Spring
+2025-sp
+AAS
+100
+Intro Asian American Studies
+LCD
+3
+21
+1
+1
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+28
+Geng, Zhe
+
+...
+
+2017
+Fall
+2017-fa
+CS
+225
+Data Structures
+
+114
+47
+27
+6
+28
+17
+14
+18
+13
+12
+9
+12
+16
+2
+353
+Fagen-Ulmschnei, Wade A
+
+2017
+Fall
+2017-fa
+CS
+225
+Data Structures
+
+121
+40
+27
+20
+29
+16
+14
+24
+4
+12
+14
+16
+14
+4
+351
+Fagen-Ulmschnei, Wade A
+
+...
+
+Note that long names for "Primary Instructor" are truncated by the University of Illinois in this dataset.
+
+Projects Using this Dataset
+
+GPAs of Every Course at The University of Illinois ,
+
+Every Gen Ed at UIUC, by GPA
+
+Grade disparity between sections at UIUC
+
+GPA++ (No longer active as of April 2024)
+
+Grade Distributions at UIUC
+
+If you create a project with this dataset, I'd love to link it here! Send a PR with your project added to this list!
+
+Data Source
+
+All data contains in this repository is data contained in public documents released by the University of Illinois. Some data was excluded by The University of Illinois to adhere to privacy laws (see "Exclusion of Data" note below).
+
+The source of the data in this dataset is from:
+
+Starting with Spring 2025, the data is provided from The University of Illinois in response to Urbana Senate item EP.25.072. This proposal was brought to the Senate via the Illinois Student Council . (A special thanks to Hunter Farnham and the Senate Committee on Educational Policy for empowering ISC to enable greater access to campus GPA data.)
+
+Data prior to Spring 2025 was released in response to FOIA requests.
+
+Exclusion of Data
+
+From FOIA #2018-150:
+
+Please be advised that certain information has been withheld under section 140/7(1)(a) that exempts from disclosure “[i]nformation specifically prohibited from disclosure by federal or State law or rules and regulations implementing adopted under federal or State law.” Specifically, the Family Educational Rights and Privacy Act (FERPA) (20 U.S.C. §1232g) protects the privacy of student education records and prohibits the release of any information from a student’s education record without the consent of the eligible student. In this case, grade distributions are not displayed when a section has low enrollment or when all students in the class have the same grade. Because of the low enrollment in those classes or because all the students in a class received the same grade, the grade data could identify a student. Thus, such information was not provided to you as it would not only violate FERPA, but it would also be invasion of personal privacy under Section 7(1)(c) of FOIA which exempts from disclosure “personal information.”
+
+Based on analysis, courses with 20 or fewer students were excluded (the smallest course in the dataset has 21 students).
+
+Table of Available Data and Data Sources
+
+Year
+Winter
+Spring
+Summer
+Fall
+
+2026
+✔ EP.25.072
+—
+—
+—
+
+2025
+✔ (25-491)*
+✔ EP.25.072
+✔ EP.25.072
+✔ EP.25.072
+
+2024
+✔ (24-438)
+✔ (24-1690)
+✔ (24-1690)
+✔ (25-491 + 25-1781)
+
+2023
+✔ (23-456)
+✔ (23-1295)
+✔ (23-1295)
+✔ (24-438)
+
+2022
+✔ (22-297)
+✔ (22-297)
+✔ (22-297)
+✔ (23-456)
+
+2021
+✔ (21-356)
+✔ (21-729)
+✔ (22-297)
+✔ (22-297)
+
+2020
+✔ (20-207)
+✔ (20-875)
+✔ (20-875)
+✔ (21-356)
+
+2019
+✔ (19-766)
+✔ (19-766)
+✔ (19-766)
+✔ (20-207)
+
+2018
+✔ (18-907)
+✔ (18-907)
+✔ (19-202)
+✔ (19-202)
+
+2017
+✔ (18-907)
+✔ (2018-150)
+✔ (18-907)
+✔ (2018-150)
+
+2016
+✔ (2016-456)
+✔ (2016-456)
+✔ (2017-042)
+✔ (2017-213)
+
+2015
+✔ (2016-456)
+✔ (2016-456)
+✔ (2016-456)
+✔ (2016-456)
+
+2014
+—^
+✔ (2016-456)
+✔ (2016-456)
+✔ (2016-456)
+
+2013
+—^
+✔ (2016-456)
+✔ (2016-456)
+✔ (2016-456)
+
+2012
+—^
+—
+✔ (2016-456)
+✔ (2016-456)
+
+2011
+—^
+✔ (2016-456)
+—
+✔ (2016-456)
+
+2010
+—^
+✔ (2016-456)
+✔ (2016-456)
+✔ (2016-456)
+
+*: Data sources in the format (##-###) denote FOIA request identifiers.
+
+^: University of Illinois did not have a winter term before Winter 2015. Winter term semesters are labeled based on the year they end (ex: Winter 2022-2023 term is labeled as "Winter 2023", consistent with the Course Catalog).
+
+Dataset Format Changes
+
+March 25, 2026
+
+Data previously labeled as Spring 2012 was found to be a copy of Summer 2012 data and was incorrectly labeled as Spring 2012. The incorrectly labeled data has been removed from the dataset. (Huge thanks to Alex Koscielski for finding this!)
+
+April 7, 2025
+
+A new "Students" column was added, that contains the total number of students receiving final grades in each course (excluding "W" grades).
+
+April 5, 2024
+
+The "Winter" semester was re-labeled to match the University of Illinois' course catalog term for winter semesters. Previously, Winter 2022-2023 was labeled as Winter 2022 in this dataset. Now, Winter 2022-2023 is labeled as Winter 2023 and matches the course catalog.
+
+Previously, "LIS ###" courses were labeled in the dataset to "IS ###" to match a course catalog change that keep continuity between courses through rubric changes. This practice was not continued across other rubric changes and make it a bit of an awkward special case. The special-case was removed and courses before 2017 are now "LIS ###" (as they were taught) instead of being changed to "IS ###".
+
+Summer 2011 was a copy of Fall 2011 and was removed from the dataset. ( #14 )
+
+Footer
+
+&copy; 2026 GitHub, Inc.
+
+Footer navigation
+
+Terms
+
+Privacy
+
+Security
+
+Status
+
+Community
+
+Docs
+
+Contact
+
+Manage cookies
+
+Do not share my personal information
+
+You can’t perform that action at this time.

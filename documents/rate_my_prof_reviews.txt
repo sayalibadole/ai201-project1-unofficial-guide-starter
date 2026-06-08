@@ -1,0 +1,132 @@
+Rate My Professors — Computer Science department, University of Illinois at Urbana-Champaign
+Each line: Professor — Quality (out of 5), number of ratings, % would take again, level of difficulty (out of 5).
+
+Geoffrey Challen — Quality 3.2, 203 ratings, 57% would take again, difficulty 3.6.
+Michael Nowak — Quality 1.8, 185 ratings, 18% would take again, difficulty 4.0.
+Kirill Levchenko — Quality 3.2, 34 ratings, 55% would take again, difficulty 3.7.
+Ryan Cunningham — Quality 4.3, 12 ratings, 75% would take again, difficulty 2.8.
+Ruta Mehta — Quality 4.2, 5 ratings, 84% would take again, difficulty 4.2.
+Emily Fox — Quality 5.0, 1 rating, 100% would take again, difficulty 3.0.
+Daniel Gonzalez Cedre — Quality 2.9, 9 ratings, 46% would take again, difficulty 3.8.
+Mike Woodley — Quality 2.3, 34 ratings, 21% would take again, difficulty 3.2.
+Abdussalam Alawini — Quality 4.0, 96 ratings, 70% would take again, difficulty 3.4.
+Hongye Liu — Quality 2.2, 59 ratings, 27% would take again, difficulty 3.3.
+Brad Solomon — Quality 3.4, 32 ratings, 64% would take again, difficulty 3.4.
+Marco Morales Aguirre — Quality 1.3, 14 ratings, 8% would take again, difficulty 2.9.
+Han Zhao — Quality 4.2, 10 ratings, 82% would take again, difficulty 4.2.
+Maxwell Fowler — Quality 3.3, 13 ratings, 75% would take again, difficulty 2.9.
+Colleen Lewis — Quality 2.3, 32 ratings, 29% would take again, difficulty 3.5.
+Margaret Fleck — Quality 3.6, 69 ratings, 50% would take again, difficulty 3.2.
+Radhika Mittal — Quality 2.2, 9 ratings, 23% would take again, difficulty 3.3.
+Graham Evans — Quality 2.5, 52 ratings, 35% would take again, difficulty 3.3.
+Andreas Kloeckner — Quality 3.7, 11 ratings, 43% would take again, difficulty 4.0.
+Jule Schatz — Quality 4.8, 6 ratings, 100% would take again, difficulty 1.7.
+Wade Fagen — Quality 4.6, 74 ratings, 93% would take again, difficulty 2.4.
+Eric Shaffer — Quality 3.7, 19 ratings, 78% would take again, difficulty 3.1.
+Michael Forbes — Quality 1.4, 5 ratings, 17% would take again, difficulty 4.4.
+Lui Sha — Quality 1.7, 13 ratings, 12% would take again, difficulty 3.9.
+Ranjitha Kumar — Quality 2.2, 12 ratings, 25% would take again, difficulty 3.3.
+Ruby Tahboub — Quality 3.1, 7 ratings, 58% would take again, difficulty 3.7.
+David Forsyth — Quality 4.3, 10 ratings, 80% would take again, difficulty 2.6.
+Reyhaneh Jabbarvand — Quality 1.0, 5 ratings, 0% would take again, difficulty 4.8.
+Michael Wigal — Quality 2.1, 7 ratings, 29% would take again, difficulty 4.0.
+Darko Marinov — Quality 3.4, 11 ratings, 34% would take again, difficulty 2.5.
+Hanghang Tong — Quality 3.3, 3 ratings, 67% would take again, difficulty 3.3.
+Daniel Kang — Quality 1.0, 6 ratings, 0% would take again, difficulty 3.8.
+Elsa Gunter — Quality 2.0, 55 ratings, 18% would take again, difficulty 4.0.
+Vikram Adve — Quality 4.5, 4 ratings, 100% would take again, difficulty 3.0.
+Tianyin Xu — Quality 3.0, 2 ratings, 50% would take again, difficulty 3.0.
+Mariana Silva — Quality 2.6, 16 ratings, 38% would take again, difficulty 3.2.
+Indranil Gupta — Quality 3.5, 25 ratings, 65% would take again, difficulty 3.4.
+Luke Olson — Quality 4.2, 10 ratings, 80% would take again, difficulty 2.7.
+Liangyan Gui — Quality 1.1, 15 ratings, 0% would take again, difficulty 4.2.
+Madhusudan Parthasarathy — Quality 2.7, 10 ratings, 34% would take again, difficulty 3.9.
+Sheldon Jacobson — Quality 2.2, 21 ratings, 20% would take again, difficulty 4.1.
+Chandra Chekuri — Quality 4.5, 12 ratings, 90% would take again, difficulty 3.3.
+Matus Telgarsky — Quality 3.4, 5 ratings, 60% would take again, difficulty 3.2.
+Theresa Dobbs — Quality 5.0, 24 ratings, 100% would take again, difficulty 2.5.
+Matthew Caesar — Quality 4.1, 21 ratings, 69% would take again, difficulty 3.3.
+Rishika Agarwal — Quality 3.5, 2 ratings, 50% would take again, difficulty 2.5.
+Kris Hauser — Quality 1.0, 1 rating, 0% would take again, difficulty 5.0.
+Svetlana Lazebnik — Quality 2.7, 15 ratings, 45% would take again, difficulty 3.5.
+Arindam Banerjee — Quality 3.0, 4 ratings, 50% would take again, difficulty 3.8.
+Hari Sundaram — Quality 3.3, 7 ratings, 58% would take again, difficulty 3.0.
+Lawrence Angrave — Quality 4.4, 117 ratings, 94% would take again, difficulty 3.0.
+Viraj Kumar — Quality 4.9, 33 ratings, 100% would take again, difficulty 2.7.
+Tarek Abdelzaher — Quality 3.1, 9 ratings, 0% would take again, difficulty 3.0.
+Sariel Har-Peled — Quality 2.1, 26 ratings, 32% would take again, difficulty 4.6.
+Craig Zilles — Quality 3.6, 89 ratings, 42% would take again, difficulty 3.4.
+Michael Wonderlich — Quality 5.0, 1 rating, 100% would take again, difficulty 2.0.
+José Meseguer — Quality 2.6, 16 ratings, 67% would take again, difficulty 3.7.
+Jeff Erickson — Quality 4.6, 37 ratings, 80% would take again, difficulty 4.3.
+Makrand Sinha — Quality 3.5, 2 ratings, 50% would take again, difficulty 3.5.
+Benjamin Cosman — Quality 2.1, 40 ratings, 30% would take again, difficulty 3.7.
+Karrie Karahalios — Quality 3.6, 9 ratings, 100% would take again, difficulty 2.6.
+Tao Xie — Quality 1.0, 3 ratings, 0% would take again, difficulty 3.0.
+Timothy Chan — Quality 2.7, 3 ratings, 34% would take again, difficulty 4.0.
+Deepak Vasisht — Quality 5.0, 2 ratings, 100% would take again, difficulty 3.5.
+Derek Hoiem — Quality 4.5, 12 ratings, 100% would take again, difficulty 3.0.
+Shenlong Wang — Quality 4.0, 2 ratings, 50% would take again, difficulty 3.0.
+Kevin Chang — Quality 3.4, 41 ratings, 48% would take again, difficulty 3.8.
+Arjun Rao — Quality 3.7, 3 ratings, 0% would take again, difficulty 2.3.
+David Heath — Quality 5.0, 1 rating, 100% would take again, difficulty 2.0.
+Dakshita Khurana — Quality 5.0, 1 rating, 100% would take again, difficulty 3.0.
+Philip Brighten Godfrey — Quality 4.9, 9 ratings, 80% would take again, difficulty 3.7.
+Michael Bailey — Quality 3.5, 4 ratings, 50% would take again, difficulty 4.0.
+Edgar Solomonik — Quality 4.5, 4 ratings, 75% would take again, difficulty 4.5.
+Brian Bailey — Quality 4.0, 14 ratings, 80% would take again, difficulty 2.9.
+Mahesh Viswanathan — Quality 4.6, 23 ratings, 100% would take again, difficulty 3.1.
+Alexander Schwing — Quality 2.5, 23 ratings, 35% would take again, difficulty 4.0.
+Neal Davis — Quality 4.1, 25 ratings, 72% would take again, difficulty 2.5.
+Robin Kravets — Quality 2.5, 19 ratings, 40% would take again, difficulty 3.8.
+John Hart — Quality 3.1, 10 ratings, 50% would take again, difficulty 2.6.
+Heng Ji — Quality 4.4, 5 ratings, 80% would take again, difficulty 3.2.
+Jian Peng — Quality 1.5, 2 ratings, 0% would take again, difficulty 1.5.
+Michael Haberman — Quality 3.7, 6 ratings, 67% would take again, difficulty 3.7.
+Laxmikant Kale — Quality 2.4, 18 ratings, 100% would take again, difficulty 3.6.
+Patrick Lin — Quality 3.8, 4 ratings, 75% would take again, difficulty 4.3.
+Sanmi Koyejo — Quality 1.3, 7 ratings, 0% would take again, difficulty 4.7.
+Wai-Tat Fu — Quality 3.3, 10 ratings, 50% would take again, difficulty 2.7.
+Albert Harris — Quality 3.3, 10 ratings, 40% would take again, difficulty 2.2.
+Paris Smaragdis — Quality 5.0, 1 rating, 100% would take again, difficulty 2.0.
+Jiawei Han — Quality 3.8, 6 ratings, 67% would take again, difficulty 3.2.
+Sasa Misailovic — Quality 5.0, 1 rating, 100% would take again, difficulty 3.0.
+Lenny Pitt — Quality 2.5, 17 ratings, 100% would take again, difficulty 3.8.
+Carl Gunter — Quality 5.0, 2 ratings, 100% would take again, difficulty 1.5.
+William Chapman — Quality 4.5, 33 ratings, 100% would take again, difficulty 2.3.
+Anna Yershova — Quality 3.8, 17 ratings, 67% would take again, difficulty 3.2.
+Sarita Adve — Quality 4.0, 18 ratings, 100% would take again, difficulty 3.3.
+Danny Dig — Quality 4.2, 12 ratings, 100% would take again, difficulty 2.8.
+Cinda Heeren — Quality 3.9, 77 ratings, 100% would take again, difficulty 3.4.
+Aditya Parameswaran — Quality 4.4, 4 ratings, 100% would take again, difficulty 2.5.
+Grigore Rosu — Quality 3.0, 5 ratings, 0% would take again, difficulty 3.2.
+John Bambenek — Quality 4.1, 5 ratings, 100% would take again, difficulty 3.0.
+Thomas Gambill — Quality 3.5, 130 ratings, 100% would take again, difficulty 2.5.
+Dan Roth — Quality 3.5, 6 ratings, 0% would take again, difficulty 3.5.
+Alexandra Kolla — Quality 3.3, 3 ratings, 34% would take again, difficulty 4.3.
+David Padua — Quality 1.6, 8 ratings, 0% would take again, difficulty 3.1.
+Roy Campbell — Quality 2.1, 13 ratings, 0% would take again, difficulty 3.1.
+Martin Hellwig — Quality 2.9, 19 ratings, 53% would take again, difficulty 3.5.
+Gul Agha — Quality 1.6, 12 ratings, 50% would take again, difficulty 4.1.
+Achal Varma — Quality 5.0, 1 rating, 100% would take again, difficulty 3.0.
+Austin Chung — Quality 1.0, 1 rating, 100% would take again, difficulty 5.0.
+Michael Heath — Quality 3.3, 2 ratings, difficulty 3.0.
+Alex Kirlik — Quality 2.5, 6 ratings, difficulty 1.5.
+Saurabh Sinha — Quality 2.7, 7 ratings, difficulty 2.9.
+Manoj Prabhakaran — Quality 2.1, 11 ratings, difficulty 3.7.
+Steve Lavalle — Quality 4.3, 7 ratings, difficulty 3.1.
+Marco Caccamo — Quality 2.5, 4 ratings, difficulty 4.3.
+Kai Zhao — Quality 3.1, 12 ratings, difficulty 2.6.
+Eyal Amir — Quality 1.8, 2 ratings, difficulty 4.5.
+Ralph Johnson — Quality 3.6, 4 ratings, difficulty 2.3.
+Sam King — Quality 3.5, 4 ratings, difficulty 3.3.
+Lucas Cook — Quality 4.8, 2 ratings, difficulty 3.5.
+Chad Peiper — Quality 2.5, 8 ratings, difficulty 4.1.
+Klara Nahrstedt — Quality 4.0, 1 rating, difficulty 2.0.
+Maria Garzaran — Quality 2.1, 10 ratings, difficulty 3.4.
+Kevin Milans — Quality 1.4, 4 ratings, difficulty 1.0.
+William Gropp — Quality 3.2, 3 ratings, difficulty 4.0.
+Prateek Rungta — Quality 5.0, 1 rating, difficulty 4.0.
+Marsha Woodbury — Quality 3.0, 57 ratings, difficulty 2.5.
+Josep Torellas — Quality 3.1, 4 ratings, difficulty 3.0.
+Andrei Popescu — Quality 1.5, 1 rating, difficulty 2.0.

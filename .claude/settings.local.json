@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python ingest_and_chunk.py)",
+      "Bash(python _inspect_chunks.py --seed 3 -n 3)"
+    ]
+  }
+}

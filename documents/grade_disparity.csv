@@ -1,0 +1,40 @@
+Course,Course Name,Instructor,Students,Sections,Percent A (%4.0s),Instructor Accolades
+CS 341,System Programming,"Angrave, Lawrence",2034,7,72%,Ranked Excellent by students 5+ years
+CS 241,System Programming,"Angrave, Lawrence",924,14,62%,Ranked Excellent by students 5+ years
+CS 105,Intro Computing: Non-Tech,"Smith, David",30,1,43%,2+ years
+CS 105,Intro Computing: Non-Tech,"Fowler, Maxwell",2539,8,39%,5+ years
+CS 105,Intro Computing: Non-Tech,"Zilles, Craig",2290,12,37%,Ranked Excellent 5+ years
+CS 105,Intro Computing: Non-Tech,"Lewis, Colleen",1651,4,33%,Ranked Excellent 2+ years
+CS 105,Intro Computing: Non-Tech,"Cunningham, Ryan",293,1,26%,New Prep
+CS 233,Computer Architecture,"Ghose, Saugata",581,4,79%,Ranked Excellent 2+ years
+CS 233,Computer Architecture,"Herman, Geoffrey",2306,31,76%,Ranked Excellent 5+ years
+CS 233,Computer Architecture,"Tran, Huy",191,1,71%,Ranked Excellent 2+ years
+CS 233,Computer Architecture,"Zilles, Craig",558,8,70%,Ranked Excellent 2+ years
+CS 500,Current Topics in Computing Education Research,"Zilles, Craig",21,1,95%,Ranked Excellent
+CS 500,Current Topics in Computing Education Research,"Lewis, Colleen",26,1,85%,Ranked Excellent
+CS 500,Current Topics in Computing Education Research,"Cunningham, Ryan",52,2,63%,2+ years
+CS 500,Current Topics in Computing Education Research,"Herman, Geoffrey",29,1,52%,Ranked Excellent 2+ years
+CS 240,Introduction to Computer Systems,"Fagen-Ulmschneider, Wade",182,3,48%,Ranked Excellent 2+ years
+CS 340,Introduction to Computer Systems,"Evans, Graham",139,1,62%,New Prep
+CS 340,Introduction to Computer Systems,"Tychonievich, Luther",686,4,55%,Ranked Excellent 2+ years
+CS 340,Introduction to Computer Systems,"Schatz, Jule",341,2,54%,2+ years
+CS 340,Introduction to Computer Systems,"Fagen-Ulmschneider, Wade",261,2,51%,Ranked Excellent 2+ years
+CS 423,Operating Systems Design,"Fagen-Ulmschneider, Wade",84,1,55%,Ranked Excellent
+CS 423,Operating Systems Design,"Alagappan, Ram",152,2,51%,2+ years
+CS 423,Operating Systems Design,"Xu, Tianyin",337,5,45%,Ranked Excellent 5+ years
+CS 537,Advanced Topics in Internet of Things (IoT),"Nahrstedt, Klara",37,1,51%,National Academies; Ranked Excellent 2+ years
+STAT 100,Statistics,"Reger, William",84,1,48%,New Prep
+STAT 100,Statistics,"Flanagan, Karle",6761,29,46%,Ranked Excellent 5+ years
+STAT 100,Statistics,"Rao, Vimal",5501,11,42%,5+ years
+STAT 100,Statistics,"Clement, Kit",380,2,37%,Ranked Excellent 2+ years
+STAT 107,Data Science Discovery,"Flanagan, Karle",5990,17,62%,Ranked Excellent 5+ years
+STAT 107,Data Science Discovery,"Fagen-Ulmschneider, Wade",5990,17,62%,Ranked Excellent 5+ years
+STAT 107,Data Science Discovery,"Nguyen, Ha",123,2,49%,Ranked Excellent 2+ years
+ECE 314,Probability in Engineering Lab,"Katselis, Dimitrios",26,1,85%,New Prep
+ECE 314,Probability in Engineering Lab,"Hajek, Bruce",409,21,62%,National Academies; Ranked Excellent 5+ years
+ECE 515,Control System Theory & Design,"Mehta, Prashant",38,3,97%,Ranked Excellent 2+ years
+ECE 515,Control System Theory & Design,"Raginsky, Maxim",40,1,80%,Ranked Excellent
+ECE 515,Control System Theory & Design,"Dong, Roy",45,3,76%,Ranked Excellent 2+ years
+ECE 431,Electric Machinery,"Haran, Kiruba",169,8,41%,National Academies; Ranked Excellent 5+ years
+ECE 340,Semiconductor Electronics,"Chu, Rongming",50,1,28%,New Prep
+ECE 340,Semiconductor Electronics,"Dallesasse, John",243,7,23%,Ranked Excellent 5+ years

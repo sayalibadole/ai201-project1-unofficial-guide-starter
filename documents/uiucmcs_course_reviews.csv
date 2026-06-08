@@ -1,0 +1,35 @@
+Course Number,Course Name,Reviews,Difficulty (1-5),Workload (hrs/wk),Rating (1-5)
+CS 498,AI Agents in the Wild,2,3.5,5,2
+CS 598,Advanced Bayesian Modeling,6,4.3,19.5,4.5
+CS 525,Advanced Distributed Systems,1,5,16,5
+CS 441,Applied Machine Learning,42,2.2,7.9,2.7
+CS 440,Artificial Intelligence,0,,,
+CS 591,CS Colloquium,0,,,
+CS 498,Cloud Computing Applications,40,3.8,13.8,4
+CS 598,Cloud Computing Capstone,7,3,13.6,4
+CS 435,Cloud Networking,12,4.3,16.1,4.6
+CS 445,Computational Photography,11,3.9,16.9,4.6
+CS 461,Computer Security I,3,4.7,20,3
+CS 463,Computer Security II,8,3.1,10.5,3.5
+CS 598,Data Mining Capstone,2,3,10,5
+CS 416,Data Visualization,36,2.1,5.9,3.6
+CS 411,Database Systems,25,2.9,10.3,4.5
+CS 598,Deep Learning for Healthcare,32,3.5,11.7,3.1
+CS 425,Distributed Systems (Cloud Computing),26,4.2,15.7,4.2
+CS 475,Formal Models of Computation,2,4.5,8,4
+CS 598,Foundations of Data Curation,31,1.8,5.3,3.3
+CS 418,Interactive Computer Graphics,2,3.5,12.5,5
+CS 437,Internet of Things,27,3.7,22.2,4.3
+CS 412,Introduction to Data Mining,26,3.3,12.2,3.7
+CS 446,Machine Learning,3,5,26.7,4
+STAT 420,Methods of Applied Statistics,27,3.7,14.4,4.6
+CS 447,Natural Language Processing,12,3.6,15.7,3.9
+CS 450,Numerical Analysis,4,4,16.5,5
+CS 484,Parallel Programming,18,4.1,19.8,2.6
+CS 598,Practical Statistical Learning,25,3.8,14.6,4.2
+CS 421,Programming Languages and Compilers,12,3.9,14.3,4.6
+CS 519,Scientific Visualization,25,3.3,10.2,4
+CS 427,Software Engineering I,22,2.3,8.8,3.1
+CS 410,Text Information Systems,34,2.6,8,3.7
+CS 513,Theory and Practice of Data Cleaning,34,1.3,2.9,3.1
+CS 576,Topics in Automated Deduction,0,,,

@@ -1,0 +1,1477 @@
+Coursicle - UIUC | University of Illinois at Urbana-Champaign
+
+Purchase complete
+
+Completing your purchase...
+
+, body doesn't exist yet
+2. This allows instant application before any content renders = no flash
+3. CSS selectors in themes.css and dark.css match: html.darkModeActive, html[data-theme]
+4. We also apply to body when it becomes available for backwards compatibility with any
+legacy CSS that might target body, but html is the primary target
+
+DEFAULTS:
+- Set $themeInitDefaultAppearance before including this file to change the default appearance mode
+- Default is 'system' (respects OS dark mode preference)
+
+SHARED SCHEDULE OVERRIDE:
+- When viewing a shared schedule, we use the sharer's current theme
+- This is fetched from the sharer's user data at the time of link access
+-->
+
+Change
+
+🧑
+
+Profile
+
+🎨
+
+Theme
+Classic
+
+🧩
+
+Widgets
+NEW
+
+🕓
+
+Week Ahead
+NEW
+
+Sync Tasks
+
+Link Google Calendar
+
+🏅
+
+Premium
+
+Notifications
+
+⚙️
+
+Settings
+
+🤝
+
+Support
+
+🧑‍💻
+
+Login
+
+Set Your Year
+
+Your year will be displayed on any reviews you make.
+
+First-year
+
+Sophomore
+
+Junior
+
+Senior
+
+Graduate
+
+Professor
+
+Advisor
+
+Set Your Major
+
+Your major will be displayed on any reviews you make.
+
+Undecided
+
+AAS
+
+ABE
+
+ACCY
+
+ACE
+
+ACES
+
+ADV
+
+AE
+
+AFAS
+
+AFRO
+
+AFST
+
+AGCM
+
+AGED
+
+AHS
+
+AIS
+
+ALEC
+
+ANSC
+
+ANTH
+
+ARAB
+
+ARCH
+
+ART
+
+ARTD
+
+ARTE
+
+ARTF
+
+ARTH
+
+ARTJ
+
+ARTS
+
+ASRM
+
+ASST
+
+ASTR
+
+ATMS
+
+BADM
+
+BASQ
+
+BCOG
+
+BCS
+
+BDI
+
+BIOC
+
+BIOE
+
+BIOL
+
+BIOP
+
+BSE
+
+BTW
+
+BUS
+
+CAS
+
+CATL
+
+CB
+
+CDB
+
+CEE
+
+CGGE
+
+CHBE
+
+CHEM
+
+CHIN
+
+CHLH
+
+CHP
+
+CI
+
+CIC
+
+CLCV
+
+CLE
+
+CMN
+
+CPSC
+
+CS
+
+CSE
+
+CW
+
+CWL
+
+CZCH
+
+DANC
+
+DTX
+
+EALC
+
+ECE
+
+ECON
+
+EDPR
+
+EDUC
+
+EEB
+
+EIL
+
+ENG
+
+ENGH
+
+ENGL
+
+ENSU
+
+ENT
+
+ENVS
+
+EOL
+
+EPOL
+
+EPS
+
+EPSY
+
+ERAM
+
+ES
+
+ESE
+
+ESL
+
+ETMA
+
+EURO
+
+EXP
+
+FAA
+
+FIN
+
+FLTE
+
+FR
+
+FSHN
+
+GC
+
+GCL
+
+GE
+
+GEOG
+
+GEOL
+
+GER
+
+GGIS
+
+GLBL
+
+GMC
+
+GRK
+
+GRKM
+
+GS
+
+GSD
+
+GWS
+
+HBSE
+
+HDFS
+
+HEBR
+
+HIST
+
+HK
+
+HNDI
+
+HORT
+
+HRD
+
+HRE
+
+HT
+
+HUM
+
+IB
+
+IE
+
+IHLT
+
+INFO
+
+IS
+
+ITAL
+
+JAPN
+
+JOUR
+
+JS
+
+KIN
+
+KOR
+
+LA
+
+LAS
+
+LAST
+
+LAT
+
+LAW
+
+LCTL
+
+LEAD
+
+LER
+
+LING
+
+LIS
+
+LLS
+
+MACS
+
+MATH
+
+MBA
+
+MCB
+
+MDIA
+
+MDVL
+
+ME
+
+MFST
+
+MICR
+
+MILS
+
+MIP
+
+MSE
+
+MUS
+
+MUSC
+
+MUSE
+
+NE
+
+NEUR
+
+NPRE
+
+NRES
+
+NS
+
+NUTR
+
+PATH
+
+PBIO
+
+PERS
+
+PHIL
+
+PHYS
+
+PLPA
+
+POL
+
+PORT
+
+PS
+
+PSM
+
+PSYC
+
+QUEC
+
+REES
+
+REHB
+
+REL
+
+RHET
+
+RLST
+
+RMLG
+
+RSOC
+
+RST
+
+RUSS
+
+SAME
+
+SBC
+
+SCAN
+
+SE
+
+SHS
+
+SLAV
+
+SLCL
+
+SLS
+
+SOC
+
+SOCW
+
+SPAN
+
+SPED
+
+STAT
+
+SWAH
+
+TAM
+
+TE
+
+THEA
+
+TMGT
+
+TRST
+
+TSM
+
+TURK
+
+UKR
+
+UP
+
+VCM
+
+VM
+
+WGGP
+
+WLOF
+
+WLTE
+
+WRIT
+
+YDSH
+
+ZULU
+
+No results. Try a different search.
+
+Set Your School
+
+You will be redirected to the Coursicle page for your school.
+
+We couldn't find your school
+
+Coursicle aims to support students at every school worldwide. If you don't see your school listed, please submit it here .
+
+California University - Silicon Valley
+
+🇺🇸
+
+Sunnyvale, California
+
+University of East - West Medicine
+
+🇺🇸
+
+Sunnyvale, California
+
+Golden Gate University - Silicon Valley
+
+🇺🇸
+
+Santa Clara, California
+
+Institute for Business and Technology
+
+🇺🇸
+
+Santa Clara, California
+
+De Anza College
+
+🇺🇸
+
+Cupertino, California
+
+Santa Clara University
+
+🇺🇸
+
+Santa Clara, California
+
+University of Silicon Valley
+
+🇺🇸
+
+San Jose, California
+
+Relay Graduate School of Education - California
+
+🇺🇸
+
+San Jose, California
+
+Gurnick Academy of Medical Arts
+
+🇺🇸
+
+San Jose, California
+
+Foothill College
+
+🇺🇸
+
+Los Altos Hills, California
+
+The Salon Professional Academy - San Jose
+
+🇺🇸
+
+San Jose, California
+
+Sofia University
+
+🇺🇸
+
+Palo Alto, California
+
+San Jose City College
+
+🇺🇸
+
+San Jose, California
+
+Cinta Aveda Institute - San Jose
+
+🇺🇸
+
+San Jose, California
+
+University of Silicon Andhra
+
+🇺🇸
+
+Milpitas, California
+
+West Valley College
+
+🇺🇸
+
+Saratoga, California
+
+San Jose State University
+
+🇺🇸
+
+San Jose, California
+
+Aviation Institute of Maintenance - Fremont
+
+🇺🇸
+
+Fremont, California
+
+Stanford University
+
+🇺🇸
+
+Stanford, California
+
+San Francisco Bay University
+
+🇺🇸
+
+Fremont, California
+
+Palo Alto University
+
+🇺🇸
+
+Palo Alto, California
+
+Urban Barber College - San Jose
+
+🇺🇸
+
+San Jose, California
+
+Unitek College - Fremont
+
+🇺🇸
+
+Fremont, California
+
+Menlo College
+
+🇺🇸
+
+Atherton, California
+
+Request your school
+
+If we don't have your school listed yet, please submit it below so we can add support.
+
+Name
+
+Name is required
+
+Type
+
+University
+
+High school
+
+Middle school
+
+Primary school
+
+Term structure
+
+Semester
+
+Quarter
+
+Trimester
+
+Year-round
+
+Other
+
+Country
+
+United States
+
+Country is required
+
+Region
+
+New York
+
+Region is required
+
+City
+
+Brooklyn
+
+City is required
+
+School homepage
+
+Course search page
+
+Anything else we should know?
+
+Submit
+
+Profile
+
+🧑
+
+Name
+
+📷
+
+Picture
+
+🏛
+
+School
+
+🎓
+
+Year
+
+📚
+
+Major
+
+Notifications
+
+Reminders
+
+Reminders
+
+Get notified when a class or event is starting or task is about to be due.
+
+Change Defaults
+
+Classes
+
+Updates
+
+Get notified when the professor, days, times, building, or room gets changed for one of your classes.
+
+Status Changes
+
+Get notified when a student adds or drops one of your classes (i.e. the status changes from Closed to Open).
+
+Chats
+
+All Messages
+
+Chat Notifications
+
+All Messages
+
+Summary
+
+None
+
+Default Reminders
+
+Tasks
+
++ Add another reminder
+
+Classes & Events
+
++ Add another reminder
+
+Save
+
+Settings
+
+Customize your experience with notifications, linked accounts, and more.
+
+🔗
+
+Linked Accounts
+
+📅
+
+Show Tasks on Calendar
+
+Links
+
+Unlink and keep data
+
+Unlink and delete data
+
+Set your name
+
+This name will be shown with any schedules you share with other users.
+
+Save
+
+Upload Photo
+
+Your picture is shown next to any schedules you share. If you'd prefer to use a Coursicle photo, click here .
+
+Upload
+
+Crop Photo
+
+Crop
+
+Change Photo
+
+Your picture is displayed alongside all messages you send.
+
+No results. Try a different search.
+
+0
+
+You've referred 0 friends so far
+
+Cash Out
+
+How it works
+
+1
+Share your link
+
+2
+A friend verifies their .edu email
+
+3
+You earn $1
+
+Generating...
+
+Share
+
+Add to story
+
+You must earn at least $10 to cash out and can earn up to $600 per year. Payments will be made to you via Venmo or Cash App.
+
+Themes
+
+Color
+
+Effect
+
+Appearance
+
+Light
+
+Dark
+
+System
+
+Save
+
+Back
+
+Colors
+
+Save
+
+Back
+
+Effects
+
+Save
+
+OK
+
+Premium Preview
+
+0 seconds left
+
+Get Premium
+
+Contact Us
+
+Need help? Find a bug ? Have a suggestion?
+This goes directly to our emails.
+
+Your message:
+
+Your email (optional):
+
+You must include a message to contact us.
+Prefer to use your email?
+Send
+
+Message received
+
+Courses
+
+Chat
+
+Account
+
+Premium
+
++ Add Event
+
+🎨
+
+NEW Themes like 🍵 Strawberry Matcha + 🧩 Widgets !
+
+Click here
+
+Share Schedule
+
+Event
+
+Class
+
+Task
+
+Link
+
+Today
+
+TBA Classes
+
+Tasks
+
+All Tasks
+
+All Tasks
+
++ Add Task
+
+Stay on track
+with
+Premium
+Get Premium
+
+faster
+in
+bulk
+
+Add
+without
+limits
+
+0% Today
+
+0% This Week
+
+0% All Time
+
+Stay
+on
+target
+
+0 days
+
+no tasks overdue
+
+build
+your
+streak
+
+Today
+
+Tomorrow
+
+This Week
+
+Later
+
+No Tasks
+
+Upcoming
+
+Completed
+
+0 tasks selected
+
+Tag
+
+Complete
+
+Delete
+
+None
+
+Delete 0 tasks?
+
+Cancel
+
+Delete
+
+All your homework in one place
+
+Add Task
+
+Sync Tasks
+
+Today
+
+CHEM 101-001
+
+Polyatomic Ions Quiz
+
+Due in 46 minutes
+
+PHIL 105-003
+
+Read Chapter 3: Fallacies
+
+Due at 6:45pm
+
+Tomorrow
+
+BIOL 103-003
+
+Read Chapter 5: DNA Replication and Repair
+
+Due at 11:59pm
+
+This Week
+
+Later
+
+MATH 231-002
+
+Prepare for Midterm on Differentiation
+
+Due next Friday
+
+Default large text
+
+Default small text
+
+Invite
+
+Notifications
+
+Leave
+
+Resources
+
+Show All
+
+Introducing Chat
+
+Coursicle Chat connects you with other students in your classes, major, and dorm.
+Want Coursicle Chat at UIUC? Click here .
+
+-->
+
+Notifications
+
+Class Status Changes
+
+Get notified when a class changes have open seats (e.g. the status changes from Closed to Open).
+
+Class Updates
+
+Get notified when important information about your classes changes, such as the professor, day/time, and building/room.
+
+Chat Notifications
+
+The summary setting will send you occassional notifications that summarize all of the messages you haven't seen.
+
+All
+
+Summary
+
+None
+
+Save
+
+Name
+
+Tag
+
+Syllabus
+
+Textbook
+
+Class Notes
+
+Quiz/Test Prep
+
+Homework
+
+Other
+
+Study Guide
+
+Cheat Sheet
+
+Question
+
+Upload
+
+Resources
+
+Premium
+
+Manage subscription
+
+Premium
+
+Submit
+
+Subscribe
+
+Secure Checkout with
+
+Are you sure you want to cancel?
+
+Canceling will prevent your subscription from auto-renewing. You will continue to have access to for the remainder of your subscription term.
+
+Dismiss
+
+Cancel subscription
+
+Retry missed cards
+
+Restart
+
+0
+
+0
+
+Done
+
+New Flashcards
+
+Mute for
+
+1 hour
+
+8 hours
+
+24 hours
+
+Indefinitely
+
+Save
+
+No Results
+
+People
+
+👩‍🏫
+
+Classes
+
+Join the chats for your classes
+
+Classes
+
+🎓
+
+Majors
+
+Join the chat for your major
+
+Majors
+
+🏛
+
+Main
+
+Chats like clubs, food, and schedule advice
+
+Main
+
+🏢
+
+Dorms
+
+Join the chat for your dorm
+
+Dorms
+
+Review
+
+Message
+
+Invite
+
+Mute
+
+SHARED CLASSES
+
+No shared classes
+
+CATS 101
+
+You and Purry McMeowsers are in the same section
+
+TOYS 1302
+
+Purry McMeowsers is planning to take this class Spring 2023
+
+NAPS 211
+
+Purry McMeowsers took this class Fall 2021
+
+Support
+
+Loading...
+
+Unable to load FAQs. Please try again later.
+
+Still need help? Have a suggestion?
+
+Contact us
+
+Flag [type]
+
+Flag [type]s that you don't think should be on Coursicle. Once a certain number of students flag a [type], it's automatically removed from Coursicle. If a student's [type] are consistently flagged by many different students, the student will be permanently banned from Coursicle.
+
+Cheating
+
+Harassment
+
+Hate
+
+Spam
+
+Nudity
+
+Violence
+
+Other
+
+Submit
+
+Other students can join by scanning this QR code or visiting the link below.
+
+Share link
+
+No comments.
+
+What would you like these defaults to apply to?
+
+Applying to all will update the reminders for everything in your Coursicle that is using the current defaults.
+
+Apply to All
+
+Apply to New Only
+
+&times;
+
+Edit
+
+Chat
+
+Share
+
+more
+
+Remove
+
+Lucie was here
+
+Add a Fall 2026 class
+Your school hasn't posted Fall 2026 classes yet. Click here to add one manually.
+
+Edit Task
+
+Complete
+
+Name is required
+
+Days
+
+Use default days
+
+Use custom days
+
+MWF
+
+TuTh
+
+MW
+
+M
+
+Tu
+
+W
+
+Th
+
+F
+
+Sa
+
+Su
+
+Days are required
+
+Starts
+
+Ends
+
+Frequency
+
+Ends On
+
+None
+
+Custom Date
+
+All Day
+
+Reminders
+
+Customize
+
+Set as default
+
++ Add another reminder
+
+Color
+
+Location
+
+Professor
+
+Credit hours
+
+0
+1
+2
+3
+4
+5
+6
+
+Class size
+
+Registration Number
+
+Course title
+
+Course Description
+
+Attributes
+
+Start date
+
+End date
+
+Notes
+
+New Task
+
+Name
+
+Name is required
+
+Class or Event
+
+None
+
+Due date
+
+Time
+
+Reminders
+
+Customize
+
+Set as default
+
++ Add another reminder
+
+Notes
+
+Add task
+Delete
+
+Sync Walkthrough
+
+For a step by step walkthrough,
+
+click here.
+
+Fall 2026
+
+Apply
+
+Name your schedule
+
+Create
+
+Update Required
+
+Update
+
+Desktop Site Mode Is On
+
+You're viewing the app in desktop mode. Please go to the Chrome app, navigate to coursicle.com, uncheck "Desktop site", and quit and re-open the Coursicle app. Your app will then be sized correctly for your phone.
+
+Track Unlimited \n SEMESTER Classes
+
+Purchase premium for SEMESTER to track as many classes as you want
+
+$9.99
+
+OR
+
+Want premium for free? Just refer three friends
+
+Share
+
+Fall 2026
+
+Day
+
+3 Day
+
+5 Day
+
+7 Day
+
+New Schedule
+
+Delete
+
+Cancel
+
+Delete
+
+Cancel
+
+Delete
+
+Cancel
+
+Share your schedule
+
+Would you like to share just your classes or share your classes and events? Your tasks will not be shared.
+
+Share Classes
+
+Share Classes & Events
+
+Cancel
+
+Filters
+
+!
+
+Install a supported browser
+
+To fully use Coursicle, including responding to notifications with context (like opening the right class), please install Google Chrome or another popular browser.
+
+Without this, tapping a notification will just open the app — not the specific class or event.
+
+You don't smell human...
+
+Want to buy access to all our course data? Click here .
