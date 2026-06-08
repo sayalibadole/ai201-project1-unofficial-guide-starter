@@ -95,11 +95,11 @@ A 50-token overlap helps preserve information that may span chunk boundaries. Fo
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | What do students commonly say about CS 225 regarding workload and difficulty? | Students generally describe CS 225 as one of the more demanding courses in the program. Reviews frequently mention a significant programming workload, challenging MPs/projects, and the need for consistent weekly effort. Despite the difficulty, many students consider it valuable for strengthening data structures and programming fundamentals. |
-| 2 | Which UIUC MCS courses are most frequently recommended by students? | Courses that receive repeated positive recommendations include: CS 425 (Distributed Systems), CS 411 (Database Systems), CS 498 (Cloud Computing Applications),CS 441 (Applied Machine Learning). Students commonly praise these courses for practical applications, industry relevance, and strong project-based learning experiences. |
-| 3 |What characteristics do students mention when reviewing Professor Mariana Raygoza? | Students generally describe Professor Mariana Raygoza as organized, approachable, and responsive to student questions. Reviews often mention clear communication, structured coursework, and a willingness to help students understand difficult material. |
-| 4 |What factors make a course difficult according to UIUC MCS student reviews? |Students typically associate course difficulty with:Heavy weekly assignments, Large programming projects, Challenging exams, Significant reading requirements, Strict grading policies, Time-consuming group work, Workload is often cited as a stronger contributor to difficulty than the complexity of the material itself. |
-| 5 |How do students use GPA and grade disparity information when selecting courses and instructors? |Students use GPA and grade disparity data as an additional decision-making tool when choosing sections and instructors. Reviews suggest that students compare instructor grading patterns, average GPAs, and historical outcomes alongside workload and teaching-quality reviews to evaluate overall course difficulty. |
+| 1 | Is CS 425 considered a difficult course? | Yes, CS 425 (Distributed Systems / Cloud Computing Concepts) is generally considered a difficult but rewarding course in the UIUC MCS program.The rigor and workload of the course can vary depending on whether you are taking the 3-credit or 4-credit version, and whether you are taking it online (via Coursera) or on-campus |
+| 2 | What is the workload like for CS 411? | The workload for CS 411 (Database Systems) in the UIUC MCS program is generally considered moderate but highly practical, requiring an average of 8 to 12 hours per week. It is often viewed as a highly manageable course that provides strong, industry-applicable skills |
+| 3 |Which MCS courses are considered the most useful for industry jobs? | CS 425, CS 411, 446, 498 |
+| 4 |How does CS 425 compare to CS 411 in workload? |CS 425 (Distributed Systems) requires a significantly higher time commitment than CS 411 (Database Systems). CS 425 is highly practical and conceptually rigorous, whereas CS 411 leans heavily on straightforward applied concepts and team projects, though workload can fluctuate based on your prior programming experience |
+| 5 |Which courses tend to have the highest average GPA? |In the UIUC MCS (Master of Computer Science) program, upper-level (400-level and above) courses generally have higher average GPAs than foundational weed-out courses. Electives like CS 410 (Text Information Systems) and CS 411 (Database Systems) are well-regarded by students for having manageable workloads and higher grading averages |
 
 ---
 
@@ -182,6 +182,10 @@ Documentation and implementation guidance
 Output quality will be verified through manual review and testing against the project requirements. Each component will be tested using the collected UIUC MCS review data, and the completed system will be evaluated using the predefined test questions. Verification will focus on whether the system retrieves relevant information, generates answers supported by the retrieved content, and produces responses that align with the expected results. Any outputs that do not satisfy the project specifications will be refined and retested before being incorporated into the final system.
 
 **Milestone 3 — Ingestion and chunking:**
+Documents     : 9  -> documents.jsonl
+  Chunks        : 257  -> chunks.jsonl
+  Avg tokens/chunk : 289.1
+
 
 **Milestone 4 — Embedding and retrieval:**
 
