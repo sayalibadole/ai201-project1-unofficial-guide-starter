@@ -9,42 +9,64 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+<!-- What topic or category of knowledge does your system cover?
+     Why is this knowledge valuable, and why is it hard to find through official channels?
+     Example: "Student reviews of CS professors at [university] — useful because official
+     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+Topic Covered: Course and Professor reviews at UIUC - MCS program. 
+
+This resource fills a gap not addressed by official UIUC websites by consolidating student feedback in one place. Instead of searching across multiple platforms, students can easily access reviews and insights to help inform their course and instructor selections.
 
 ---
 
-## Documents
+## Document Sources
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
+<!-- List every source you collected documents from.
+     Be specific: include URLs, subreddit names, forum thread titles, or file names.
+     Aim for variety — sources that together cover different subtopics or perspectives. -->
 
-| # | Source | Description | URL or location |
-|---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| # | Source | Type | URL or file path |
+|---|--------|------|-----------------|
+| 1 |Rate My Professor |Site |https://www.ratemyprofessors.com/search/professors/1112?q=*&did=11 |
+| 2 |List of professors ranked excellent |College Webpage |https://siebelschool.illinois.edu/news/illinois-cs-places-28-faculty-on-citl-list-of-teachers-ranked-as-excellent-by-their-students |
+| 3 |UIUC MCS course reviews|Webpage |https://uiucmcs.org/ |
+| 4 |Student Blog |Medium |https://medium.com/@suvoo/the-actual-masters-experience-usa-17ed4adc2af3 |
+| 5 |Student Discussions | Thread|https://www.quora.com/What-courses-in-UIUC-MCS-are-excellent-and-should-not-be-missed |
+| 6 |UIUC MCS Reddit | Subreddit |https://www.reddit.com/r/UIUC_MCS/|
+| 7 |Coursicle - course reviews |Webpage |https://www.coursicle.com/illinois/ |
+| 8 |Grade disparity between courses |Webpage |[https://waf.cs.illinois.edu/discovery/grade_disparity_between_sections_at_uiuc/](https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/) |
+| 9 |Coursicle - professor reviews | Webpage|https://www.coursicle.com/illinois/professors/ |
+| 10 |GPA Dataset | Github Repo | https://github.com/wadefagen/datasets/tree/main/gpa |
 
 ---
 
 ## Chunking Strategy
 
-<!-- How will you split documents into chunks?
-     State your chunk size (in tokens or characters), overlap size, and explain why those
-     numbers fit the structure of your documents.
-     A review-heavy corpus warrants different chunking than a long FAQ. -->
+<!-- Describe your chunking approach with enough specificity that someone else could reproduce it.
+     Include:
+     - Chunk size (characters or tokens) and why that size fits your documents
+     - Overlap size and why (or why not) you used overlap
+     - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
+     - What your final chunk count was across all documents -->
 
 **Chunk size:**
-
+250–350 tokens per chunk (target ~300 tokens)
 **Overlap:**
+50 tokens overlap
+**Why these choices fit your documents:**
+Our corpus consists primarily of:
 
-**Reasoning:**
+Student course reviews
+Reddit comments and discussion threads
+RateMyProfessor reviews
+Course writeups and blog posts
+UIUCMCS reviews
+
+Most reviews are relatively short (1–5 paragraphs) and contain a single opinion or experience about workload, difficulty, projects, grading, or teaching quality. Because the documents are opinion-based rather than long technical manuals, very large chunks would combine multiple unrelated ideas and reduce retrieval precision.
+
+A chunk size of approximately 300 tokens is large enough to preserve the context of a student's review while remaining focused on a specific experience. For example, a review discussing workload, project difficulty, and instructor quality can usually fit within a single chunk, allowing the retrieval system to return a coherent opinion rather than fragmented sentences.
+
+A 50-token overlap helps preserve information that may span chunk boundaries. For example, a reviewer might describe project difficulty at the end of one chunk and explain its impact on workload at the beginning of the next. The overlap ensures that important context is not lost and that either chunk remains retrievable.
 
 ---
 
@@ -73,11 +95,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Is CS 425 considered a difficult course? | Yes, CS 425 (Distributed Systems / Cloud Computing Concepts) is generally considered a difficult but rewarding course in the UIUC MCS program.The rigor and workload of the course can vary depending on whether you are taking the 3-credit or 4-credit version, and whether you are taking it online (via Coursera) or on-campus |
+| 2 | What is the workload like for CS 411? | The workload for CS 411 (Database Systems) in the UIUC MCS program is generally considered moderate but highly practical, requiring an average of 8 to 12 hours per week. It is often viewed as a highly manageable course that provides strong, industry-applicable skills |
+| 3 |Which MCS courses are considered the most useful for industry jobs? | CS 425, CS 411, 446, 498 |
+| 4 |How does CS 425 compare to CS 411 in workload? |CS 425 (Distributed Systems) requires a significantly higher time commitment than CS 411 (Database Systems). CS 425 is highly practical and conceptually rigorous, whereas CS 411 leans heavily on straightforward applied concepts and team projects, though workload can fluctuate based on your prior programming experience |
+| 5 |Which courses tend to have the highest average GPA? |In the UIUC MCS (Master of Computer Science) program, upper-level (400-level and above) courses generally have higher average GPAs than foundational weed-out courses. Electives like CS 410 (Text Information Systems) and CS 411 (Database Systems) are well-regarded by students for having manageable workloads and higher grading averages |
 
 ---
 
@@ -87,9 +109,10 @@
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1.Conflicting or Subjective Student Opinions- One of the primary challenges of this knowledge base is that many sources contain subjective student experiences rather than objective facts. Different students may have very different opinions about the same course or professor based on their background, expectations, learning style, or semester. For example, one student may describe a course as manageable while another describes it as extremely difficult. Because the retrieval system aggregates information from multiple review platforms, it may retrieve conflicting opinions and generate summaries that do not fully represent the diversity of student experiences.
 
-2.
+2. Noisy and Unverified Online Content- Several sources, including Reddit, Quora, and RateMyProfessor, contain user-generated content that is not verified by the university. Reviews may be outdated, biased, incomplete, or based on a single individual's experience. Some reviews may also contain exaggerated praise or criticism. As a result, the system may retrieve information that does not accurately reflect the current state of a course or instructor, especially if course content or teaching staff have changed over time.
+
 
 ---
 
@@ -100,6 +123,34 @@
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+```mermaid
+flowchart LR
+
+    A[Document Ingestion<br/>BeautifulSoup<br/>Reddit API / Web Scraping<br/>PDF & HTML Processing]
+    
+    --> B[Chunking<br/>LangChain RecursiveCharacterTextSplitter<br/>300 Token Chunks<br/>50 Token Overlap]
+    
+    --> C[Embedding + Vector Store<br/>OpenAI text-embedding-3-small<br/>FAISS Vector Database]
+    
+    --> D[Retrieval<br/>Top-k Similarity Search<br/>Cosine Similarity]
+    
+    --> E[Generation<br/>GPT-4o / GPT-4.1<br/>RAG Prompting]
+
+    A1[RateMyProfessor]
+    A2[UIUCMCS Reviews]
+    A3[Reddit r/UIUC_MCS]
+    A4[Coursicle]
+    A5[Grade & GPA Datasets]
+    A6[Medium / Quora]
+
+    A1 --> A
+    A2 --> A
+    A3 --> A
+    A4 --> A
+    A5 --> A
+    A6 --> A
+```
 
 ---
 
@@ -114,8 +165,27 @@
      "I'll use AI to help me code" is not a plan.
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
+     
+Tool used: Claude
+The AI tools will be provided with the project requirements from this planning document, including the domain description, document sources, chunking strategy, pipeline architecture, and evaluation questions.
+
+The AI tools will be used to generate code for document ingestion, preprocessing, chunking, embedding generation, vector database creation, retrieval, and answer generation. They may also be used to assist with debugging, prompt design, and integration of the different pipeline components.
+
+Expected outputs include:
+Python scripts for collecting and processing data from the selected sources
+Chunking and document preprocessing implementations
+Embedding and vector database setup code
+Retrieval and ranking logic
+Prompt templates and answer-generation workflows
+Documentation and implementation guidance
+
+Output quality will be verified through manual review and testing against the project requirements. Each component will be tested using the collected UIUC MCS review data, and the completed system will be evaluated using the predefined test questions. Verification will focus on whether the system retrieves relevant information, generates answers supported by the retrieved content, and produces responses that align with the expected results. Any outputs that do not satisfy the project specifications will be refined and retested before being incorporated into the final system.
 
 **Milestone 3 — Ingestion and chunking:**
+Documents     : 9  -> documents.jsonl
+  Chunks        : 257  -> chunks.jsonl
+  Avg tokens/chunk : 289.1
+
 
 **Milestone 4 — Embedding and retrieval:**
 
